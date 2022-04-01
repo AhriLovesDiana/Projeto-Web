@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Tela_de_Prefil
 {
-    public partial class FormPerfil : Form
+    public partial class Perfil : Form
     {
-        public FormPerfil()
+        public Perfil()
         {
             InitializeComponent();
         }
