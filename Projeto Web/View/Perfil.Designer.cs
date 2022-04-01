@@ -30,6 +30,7 @@ namespace Tela_de_Prefil
         private void InitializeComponent()
         {
             this.pnlDadosUser = new System.Windows.Forms.Panel();
+            this.pictureCircular1 = new Tela_de_Prefil.PictureCircular();
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
@@ -73,8 +74,8 @@ namespace Tela_de_Prefil
             this.pbContAssis2 = new System.Windows.Forms.PictureBox();
             this.pbContAssis1 = new System.Windows.Forms.PictureBox();
             this.lblContinue = new System.Windows.Forms.Label();
-            this.pictureCircular1 = new Tela_de_Prefil.PictureCircular();
             this.pnlDadosUser.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureCircular1)).BeginInit();
             this.pnlCapa.SuspendLayout();
             this.pnlAmigos.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).BeginInit();
@@ -96,10 +97,6 @@ namespace Tela_de_Prefil
             ((System.ComponentModel.ISupportInitialize)(this.pbContAssis3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbContAssis2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbContAssis1)).BeginInit();
-<<<<<<< HEAD:Projeto Web/FormPerfil.Designer.cs
-            ((System.ComponentModel.ISupportInitialize)(this.pictureCircular1)).BeginInit();
-=======
->>>>>>> dd9a1193272926f2274cd6047d64deb6ea6083d3:Projeto Web/View/FormPerfil.Designer.cs
             this.SuspendLayout();
             // 
             // pnlDadosUser
@@ -124,6 +121,15 @@ namespace Tela_de_Prefil
             this.pnlDadosUser.Name = "pnlDadosUser";
             this.pnlDadosUser.Size = new System.Drawing.Size(123, 433);
             this.pnlDadosUser.TabIndex = 6;
+            // 
+            // pictureCircular1
+            // 
+            this.pictureCircular1.BackColor = System.Drawing.Color.DarkGray;
+            this.pictureCircular1.Location = new System.Drawing.Point(6, 12);
+            this.pictureCircular1.Name = "pictureCircular1";
+            this.pictureCircular1.Size = new System.Drawing.Size(114, 114);
+            this.pictureCircular1.TabIndex = 12;
+            this.pictureCircular1.TabStop = false;
             // 
             // textBox5
             // 
@@ -523,15 +529,6 @@ namespace Tela_de_Prefil
             this.lblContinue.TabIndex = 0;
             this.lblContinue.Text = "Continue assistindo";
             // 
-            // pictureCircular1
-            // 
-            this.pictureCircular1.BackColor = System.Drawing.Color.DarkGray;
-            this.pictureCircular1.Location = new System.Drawing.Point(6, 12);
-            this.pictureCircular1.Name = "pictureCircular1";
-            this.pictureCircular1.Size = new System.Drawing.Size(114, 114);
-            this.pictureCircular1.TabIndex = 12;
-            this.pictureCircular1.TabStop = false;
-            // 
             // FormPerfil
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
@@ -552,6 +549,7 @@ namespace Tela_de_Prefil
             this.Text = "Perfil";
             this.pnlDadosUser.ResumeLayout(false);
             this.pnlDadosUser.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureCircular1)).EndInit();
             this.pnlCapa.ResumeLayout(false);
             this.pnlAmigos.ResumeLayout(false);
             this.pnlAmigos.PerformLayout();
@@ -577,10 +575,6 @@ namespace Tela_de_Prefil
             ((System.ComponentModel.ISupportInitialize)(this.pbContAssis3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbContAssis2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbContAssis1)).EndInit();
-<<<<<<< HEAD:Projeto Web/FormPerfil.Designer.cs
-            ((System.ComponentModel.ISupportInitialize)(this.pictureCircular1)).EndInit();
-=======
->>>>>>> dd9a1193272926f2274cd6047d64deb6ea6083d3:Projeto Web/View/FormPerfil.Designer.cs
             this.ResumeLayout(false);
             this.PerformLayout();
 
