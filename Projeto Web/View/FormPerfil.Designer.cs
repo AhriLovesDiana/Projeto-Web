@@ -97,7 +97,6 @@ namespace Tela_de_Prefil
             ((System.ComponentModel.ISupportInitialize)(this.pbContAssis3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbContAssis2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbContAssis1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureCircular2)).BeginInit();
             this.SuspendLayout();
             // 
             // pnlDadosUser
@@ -566,7 +565,6 @@ namespace Tela_de_Prefil
             ((System.ComponentModel.ISupportInitialize)(this.pbContAssis3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbContAssis2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbContAssis1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureCircular2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -615,7 +613,6 @@ namespace Tela_de_Prefil
         private System.Windows.Forms.Button btnProxDiario;
         private System.Windows.Forms.Button btnProxLisDesejo;
         private System.Windows.Forms.Button btnProxContAssis;
-        private PictureCircular pictureCircular2;
         private System.Windows.Forms.Button btnSugesAmiz;
         private System.Windows.Forms.Button btnMaisAmigos;
     }
