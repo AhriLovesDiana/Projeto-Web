@@ -30,7 +30,7 @@ namespace Projeto_Web
         private void InitializeComponent()
         {
             this.btnSalvar = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtRepSenha = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.txtSenha = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
@@ -55,13 +55,14 @@ namespace Projeto_Web
             this.btnSalvar.TabIndex = 31;
             this.btnSalvar.Text = "Salvar";
             this.btnSalvar.UseVisualStyleBackColor = true;
+            this.btnSalvar.Click += new System.EventHandler(this.Salvar);
             // 
-            // textBox1
+            // txtRepSenha
             // 
-            this.textBox1.Location = new System.Drawing.Point(13, 361);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 23);
-            this.textBox1.TabIndex = 30;
+            this.txtRepSenha.Location = new System.Drawing.Point(13, 361);
+            this.txtRepSenha.Name = "txtRepSenha";
+            this.txtRepSenha.Size = new System.Drawing.Size(100, 23);
+            this.txtRepSenha.TabIndex = 30;
             // 
             // label7
             // 
@@ -294,7 +295,7 @@ namespace Projeto_Web
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(314, 448);
             this.Controls.Add(this.btnSalvar);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtRepSenha);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.txtSenha);
             this.Controls.Add(this.label6);
@@ -319,7 +320,7 @@ namespace Projeto_Web
         #endregion
 
         private System.Windows.Forms.Button btnSalvar;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtRepSenha;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.TextBox txtSenha;
         private System.Windows.Forms.Label label6;
