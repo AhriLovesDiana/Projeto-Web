@@ -1,7 +1,7 @@
 ﻿
 namespace Tela_de_Prefil
 {
-    partial class FormPerfil
+    partial class Perfil
     {
         /// <summary>
         ///  Required designer variable.
@@ -29,11 +29,11 @@ namespace Tela_de_Prefil
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormPerfil));
             this.pnlDadosUser = new System.Windows.Forms.Panel();
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
+            this.btnConfiguraçoes = new System.Windows.Forms.Button();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.lblBio = new System.Windows.Forms.Label();
@@ -44,11 +44,12 @@ namespace Tela_de_Prefil
             this.pnlCapa = new System.Windows.Forms.Panel();
             this.lblCapa = new System.Windows.Forms.Label();
             this.pnlAmigos = new System.Windows.Forms.Panel();
+            this.btnSugesAmiz = new System.Windows.Forms.Button();
+            this.btnMaisAmigos = new System.Windows.Forms.Button();
             this.pictureBox15 = new System.Windows.Forms.PictureBox();
             this.pictureBox16 = new System.Windows.Forms.PictureBox();
             this.pbAmigo2 = new System.Windows.Forms.PictureBox();
             this.pbAmigo1 = new System.Windows.Forms.PictureBox();
-            this.btnConfiguraçoes = new System.Windows.Forms.Button();
             this.lblSugestoes = new System.Windows.Forms.Label();
             this.lblAmigos = new System.Windows.Forms.Label();
             this.pnlDiario = new System.Windows.Forms.Panel();
@@ -72,9 +73,7 @@ namespace Tela_de_Prefil
             this.pbContAssis2 = new System.Windows.Forms.PictureBox();
             this.pbContAssis1 = new System.Windows.Forms.PictureBox();
             this.lblContinue = new System.Windows.Forms.Label();
-
-            this.btnMaisAmigos = new System.Windows.Forms.Button();
-            this.btnSugesAmiz = new System.Windows.Forms.Button();
+            this.pictureCircular1 = new Tela_de_Prefil.PictureCircular();
             this.pnlDadosUser.SuspendLayout();
             this.pnlCapa.SuspendLayout();
             this.pnlAmigos.SuspendLayout();
@@ -97,13 +96,17 @@ namespace Tela_de_Prefil
             ((System.ComponentModel.ISupportInitialize)(this.pbContAssis3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbContAssis2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbContAssis1)).BeginInit();
+<<<<<<< HEAD:Projeto Web/FormPerfil.Designer.cs
+            ((System.ComponentModel.ISupportInitialize)(this.pictureCircular1)).BeginInit();
+=======
+>>>>>>> dd9a1193272926f2274cd6047d64deb6ea6083d3:Projeto Web/View/FormPerfil.Designer.cs
             this.SuspendLayout();
             // 
             // pnlDadosUser
             // 
             this.pnlDadosUser.AutoSize = true;
             this.pnlDadosUser.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-
+            this.pnlDadosUser.Controls.Add(this.pictureCircular1);
             this.pnlDadosUser.Controls.Add(this.textBox5);
             this.pnlDadosUser.Controls.Add(this.textBox4);
             this.pnlDadosUser.Controls.Add(this.textBox3);
@@ -119,7 +122,7 @@ namespace Tela_de_Prefil
             this.pnlDadosUser.Location = new System.Drawing.Point(0, 0);
             this.pnlDadosUser.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pnlDadosUser.Name = "pnlDadosUser";
-            this.pnlDadosUser.Size = new System.Drawing.Size(124, 433);
+            this.pnlDadosUser.Size = new System.Drawing.Size(123, 433);
             this.pnlDadosUser.TabIndex = 6;
             // 
             // textBox5
@@ -142,6 +145,17 @@ namespace Tela_de_Prefil
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(112, 23);
             this.textBox3.TabIndex = 9;
+            // 
+            // btnConfiguraçoes
+            // 
+            this.btnConfiguraçoes.AutoSize = true;
+            this.btnConfiguraçoes.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.btnConfiguraçoes.Location = new System.Drawing.Point(0, 405);
+            this.btnConfiguraçoes.Name = "btnConfiguraçoes";
+            this.btnConfiguraçoes.Size = new System.Drawing.Size(53, 25);
+            this.btnConfiguraçoes.TabIndex = 2;
+            this.btnConfiguraçoes.Text = "Config";
+            this.btnConfiguraçoes.UseVisualStyleBackColor = true;
             // 
             // textBox2
             // 
@@ -209,9 +223,9 @@ namespace Tela_de_Prefil
             this.pnlCapa.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.pnlCapa.Controls.Add(this.lblCapa);
             this.pnlCapa.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pnlCapa.Location = new System.Drawing.Point(124, 0);
+            this.pnlCapa.Location = new System.Drawing.Point(123, 0);
             this.pnlCapa.Name = "pnlCapa";
-            this.pnlCapa.Size = new System.Drawing.Size(768, 109);
+            this.pnlCapa.Size = new System.Drawing.Size(769, 109);
             this.pnlCapa.TabIndex = 7;
             // 
             // lblCapa
@@ -239,6 +253,24 @@ namespace Tela_de_Prefil
             this.pnlAmigos.Name = "pnlAmigos";
             this.pnlAmigos.Size = new System.Drawing.Size(233, 324);
             this.pnlAmigos.TabIndex = 8;
+            // 
+            // btnSugesAmiz
+            // 
+            this.btnSugesAmiz.Location = new System.Drawing.Point(186, 169);
+            this.btnSugesAmiz.Name = "btnSugesAmiz";
+            this.btnSugesAmiz.Size = new System.Drawing.Size(44, 29);
+            this.btnSugesAmiz.TabIndex = 10;
+            this.btnSugesAmiz.Text = "V";
+            this.btnSugesAmiz.UseVisualStyleBackColor = true;
+            // 
+            // btnMaisAmigos
+            // 
+            this.btnMaisAmigos.Location = new System.Drawing.Point(177, 6);
+            this.btnMaisAmigos.Name = "btnMaisAmigos";
+            this.btnMaisAmigos.Size = new System.Drawing.Size(44, 29);
+            this.btnMaisAmigos.TabIndex = 9;
+            this.btnMaisAmigos.Text = "V";
+            this.btnMaisAmigos.UseVisualStyleBackColor = true;
             // 
             // pictureBox15
             // 
@@ -272,17 +304,6 @@ namespace Tela_de_Prefil
             this.pbAmigo1.TabIndex = 5;
             this.pbAmigo1.TabStop = false;
             // 
-            // btnConfiguraçoes
-            // 
-            this.btnConfiguraçoes.AutoSize = true;
-            this.btnConfiguraçoes.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.btnConfiguraçoes.Location = new System.Drawing.Point(0, 405);
-            this.btnConfiguraçoes.Name = "btnConfiguraçoes";
-            this.btnConfiguraçoes.Size = new System.Drawing.Size(53, 25);
-            this.btnConfiguraçoes.TabIndex = 2;
-            this.btnConfiguraçoes.Text = "Config";
-            this.btnConfiguraçoes.UseVisualStyleBackColor = true;
-            // 
             // lblSugestoes
             // 
             this.lblSugestoes.AutoSize = true;
@@ -312,9 +333,9 @@ namespace Tela_de_Prefil
             this.pnlDiario.Controls.Add(this.pbDiario1);
             this.pnlDiario.Controls.Add(this.lblDiario);
             this.pnlDiario.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pnlDiario.Location = new System.Drawing.Point(124, 109);
+            this.pnlDiario.Location = new System.Drawing.Point(123, 109);
             this.pnlDiario.Name = "pnlDiario";
-            this.pnlDiario.Size = new System.Drawing.Size(535, 104);
+            this.pnlDiario.Size = new System.Drawing.Size(536, 104);
             this.pnlDiario.TabIndex = 9;
             // 
             // btnProxDiario
@@ -379,9 +400,9 @@ namespace Tela_de_Prefil
             this.pnlListaDesejos.Controls.Add(this.pbLisDes1);
             this.pnlListaDesejos.Controls.Add(this.lblListaDesejos);
             this.pnlListaDesejos.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pnlListaDesejos.Location = new System.Drawing.Point(124, 213);
+            this.pnlListaDesejos.Location = new System.Drawing.Point(123, 213);
             this.pnlListaDesejos.Name = "pnlListaDesejos";
-            this.pnlListaDesejos.Size = new System.Drawing.Size(535, 109);
+            this.pnlListaDesejos.Size = new System.Drawing.Size(536, 109);
             this.pnlListaDesejos.TabIndex = 10;
             // 
             // btnProxLisDesejo
@@ -446,9 +467,9 @@ namespace Tela_de_Prefil
             this.pnlContinue.Controls.Add(this.pbContAssis1);
             this.pnlContinue.Controls.Add(this.lblContinue);
             this.pnlContinue.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pnlContinue.Location = new System.Drawing.Point(124, 322);
+            this.pnlContinue.Location = new System.Drawing.Point(123, 322);
             this.pnlContinue.Name = "pnlContinue";
-            this.pnlContinue.Size = new System.Drawing.Size(535, 111);
+            this.pnlContinue.Size = new System.Drawing.Size(536, 111);
             this.pnlContinue.TabIndex = 11;
             // 
             // btnProxContAssis
@@ -502,23 +523,14 @@ namespace Tela_de_Prefil
             this.lblContinue.TabIndex = 0;
             this.lblContinue.Text = "Continue assistindo";
             // 
-            // btnMaisAmigos
+            // pictureCircular1
             // 
-            this.btnMaisAmigos.Location = new System.Drawing.Point(177, 6);
-            this.btnMaisAmigos.Name = "btnMaisAmigos";
-            this.btnMaisAmigos.Size = new System.Drawing.Size(44, 29);
-            this.btnMaisAmigos.TabIndex = 9;
-            this.btnMaisAmigos.Text = "V";
-            this.btnMaisAmigos.UseVisualStyleBackColor = true;
-            // 
-            // btnSugesAmiz
-            // 
-            this.btnSugesAmiz.Location = new System.Drawing.Point(186, 169);
-            this.btnSugesAmiz.Name = "btnSugesAmiz";
-            this.btnSugesAmiz.Size = new System.Drawing.Size(44, 29);
-            this.btnSugesAmiz.TabIndex = 10;
-            this.btnSugesAmiz.Text = "V";
-            this.btnSugesAmiz.UseVisualStyleBackColor = true;
+            this.pictureCircular1.BackColor = System.Drawing.Color.DarkGray;
+            this.pictureCircular1.Location = new System.Drawing.Point(6, 12);
+            this.pictureCircular1.Name = "pictureCircular1";
+            this.pictureCircular1.Size = new System.Drawing.Size(114, 114);
+            this.pictureCircular1.TabIndex = 12;
+            this.pictureCircular1.TabStop = false;
             // 
             // FormPerfil
             // 
@@ -565,6 +577,10 @@ namespace Tela_de_Prefil
             ((System.ComponentModel.ISupportInitialize)(this.pbContAssis3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbContAssis2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbContAssis1)).EndInit();
+<<<<<<< HEAD:Projeto Web/FormPerfil.Designer.cs
+            ((System.ComponentModel.ISupportInitialize)(this.pictureCircular1)).EndInit();
+=======
+>>>>>>> dd9a1193272926f2274cd6047d64deb6ea6083d3:Projeto Web/View/FormPerfil.Designer.cs
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -615,6 +631,7 @@ namespace Tela_de_Prefil
         private System.Windows.Forms.Button btnProxContAssis;
         private System.Windows.Forms.Button btnSugesAmiz;
         private System.Windows.Forms.Button btnMaisAmigos;
+        private PictureCircular pictureCircular1;
     }
 }
 
