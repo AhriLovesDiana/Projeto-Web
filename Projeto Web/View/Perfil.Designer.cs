@@ -96,10 +96,9 @@ namespace Tela_de_Prefil
             ((System.ComponentModel.ISupportInitialize)(this.pbContAssis3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbContAssis2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbContAssis1)).BeginInit();
-<<<<<<< HEAD:Projeto Web/FormPerfil.Designer.cs
+
             ((System.ComponentModel.ISupportInitialize)(this.pictureCircular1)).BeginInit();
-=======
->>>>>>> dd9a1193272926f2274cd6047d64deb6ea6083d3:Projeto Web/View/FormPerfil.Designer.cs
+
             this.SuspendLayout();
             // 
             // pnlDadosUser
@@ -577,10 +576,9 @@ namespace Tela_de_Prefil
             ((System.ComponentModel.ISupportInitialize)(this.pbContAssis3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbContAssis2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbContAssis1)).EndInit();
-<<<<<<< HEAD:Projeto Web/FormPerfil.Designer.cs
+
             ((System.ComponentModel.ISupportInitialize)(this.pictureCircular1)).EndInit();
-=======
->>>>>>> dd9a1193272926f2274cd6047d64deb6ea6083d3:Projeto Web/View/FormPerfil.Designer.cs
+
             this.ResumeLayout(false);
             this.PerformLayout();
 
