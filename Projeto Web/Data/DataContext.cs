@@ -10,7 +10,7 @@ namespace Projeto_Web.Data
         {
             optionsBuilder.UseSqlServer("Data Source=JUN536737W10-1\\BDSENAC;Initial Catalog=BancoWeb;User Id=senaclivre;Password='senaclivre'");
         }
-        public DbSet<CadastroModel> Clientes { get; set; }
+        public DbSet<CadastroModel> Usuarios { get; set; }
 
     }
 }

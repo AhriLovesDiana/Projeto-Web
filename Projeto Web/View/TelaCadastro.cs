@@ -13,7 +13,8 @@ namespace Projeto_Web
 {
     public partial class TelaCadastro : Form
     {
-        CadastroModel cliente;
+        CadastroModel usuario;
+
         public TelaCadastro()
         {
             InitializeComponent();
@@ -21,14 +22,14 @@ namespace Projeto_Web
 
         private void Salvar(object sender, EventArgs e)
         {
-            cliente = new CadastroModel();
+            usuario = new CadastroModel();
 
-            cliente.Nome = txtNome.Text;
-            cliente.Email = txtEmail.Text;
-            cliente.User = txtUser.Text;
-            cliente.Senha = txtSenha.Text;
-            cliente.Repitasenha = txtRepSenha.Text;
-            ctrlCliente.Salvar(cliente);
+            usuario.Nome = txtNome.Text;
+            usuario.Email = txtEmail.Text;
+            usuario.User = txtUser.Text;
+            usuario.Senha = txtSenha.Text;
+            usuario.Repitasenha = txtRepSenha.Text;
+            ctrlusuario.Salvar(usuario);
             this.Close();
         }
     }
