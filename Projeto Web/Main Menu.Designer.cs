@@ -102,7 +102,7 @@ namespace Projeto_Web
             this.SlidingPanel.Dock = System.Windows.Forms.DockStyle.Left;
             this.SlidingPanel.Location = new System.Drawing.Point(0, 40);
             this.SlidingPanel.Name = "SlidingPanel";
-            this.SlidingPanel.Size = new System.Drawing.Size(113, 385);
+            this.SlidingPanel.Size = new System.Drawing.Size(79, 385);
             this.SlidingPanel.TabIndex = 1;
             // 
             // panel2
@@ -113,7 +113,7 @@ namespace Projeto_Web
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(113, 315);
+            this.panel2.Size = new System.Drawing.Size(79, 315);
             this.panel2.TabIndex = 8;
             // 
             // Animebtn
@@ -121,7 +121,7 @@ namespace Projeto_Web
             this.Animebtn.Dock = System.Windows.Forms.DockStyle.Top;
             this.Animebtn.Location = new System.Drawing.Point(0, 82);
             this.Animebtn.Name = "Animebtn";
-            this.Animebtn.Size = new System.Drawing.Size(113, 41);
+            this.Animebtn.Size = new System.Drawing.Size(79, 41);
             this.Animebtn.TabIndex = 8;
             this.Animebtn.Text = "Animes";
             this.Animebtn.UseVisualStyleBackColor = true;
@@ -131,7 +131,7 @@ namespace Projeto_Web
             this.Seriesbtn.Dock = System.Windows.Forms.DockStyle.Top;
             this.Seriesbtn.Location = new System.Drawing.Point(0, 41);
             this.Seriesbtn.Name = "Seriesbtn";
-            this.Seriesbtn.Size = new System.Drawing.Size(113, 41);
+            this.Seriesbtn.Size = new System.Drawing.Size(79, 41);
             this.Seriesbtn.TabIndex = 7;
             this.Seriesbtn.Text = "Séries";
             this.Seriesbtn.UseVisualStyleBackColor = true;
@@ -141,7 +141,7 @@ namespace Projeto_Web
             this.Filmesbtn.Dock = System.Windows.Forms.DockStyle.Top;
             this.Filmesbtn.Location = new System.Drawing.Point(0, 0);
             this.Filmesbtn.Name = "Filmesbtn";
-            this.Filmesbtn.Size = new System.Drawing.Size(113, 41);
+            this.Filmesbtn.Size = new System.Drawing.Size(79, 41);
             this.Filmesbtn.TabIndex = 6;
             this.Filmesbtn.Text = "Filmes";
             this.Filmesbtn.UseVisualStyleBackColor = true;
@@ -154,7 +154,7 @@ namespace Projeto_Web
             this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel3.Location = new System.Drawing.Point(0, 0);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(113, 385);
+            this.panel3.Size = new System.Drawing.Size(79, 385);
             this.panel3.TabIndex = 7;
             // 
             // Solicitacoesbtn
@@ -162,17 +162,18 @@ namespace Projeto_Web
             this.Solicitacoesbtn.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.Solicitacoesbtn.Location = new System.Drawing.Point(0, 344);
             this.Solicitacoesbtn.Name = "Solicitacoesbtn";
-            this.Solicitacoesbtn.Size = new System.Drawing.Size(113, 41);
+            this.Solicitacoesbtn.Size = new System.Drawing.Size(79, 41);
             this.Solicitacoesbtn.TabIndex = 9;
             this.Solicitacoesbtn.Text = "Solicitações";
             this.Solicitacoesbtn.UseVisualStyleBackColor = true;
+            this.Solicitacoesbtn.Click += new System.EventHandler(this.Solicitacoesbtn_Click);
             // 
             // Comunidadebtn
             // 
             this.Comunidadebtn.Dock = System.Windows.Forms.DockStyle.Top;
             this.Comunidadebtn.Location = new System.Drawing.Point(0, 0);
             this.Comunidadebtn.Name = "Comunidadebtn";
-            this.Comunidadebtn.Size = new System.Drawing.Size(113, 40);
+            this.Comunidadebtn.Size = new System.Drawing.Size(79, 40);
             this.Comunidadebtn.TabIndex = 8;
             this.Comunidadebtn.Text = "Comunidade";
             this.Comunidadebtn.UseVisualStyleBackColor = true;
@@ -184,25 +185,25 @@ namespace Projeto_Web
             // panel4
             // 
             this.panel4.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel4.Location = new System.Drawing.Point(113, 40);
+            this.panel4.Location = new System.Drawing.Point(79, 40);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(723, 146);
+            this.panel4.Size = new System.Drawing.Size(757, 146);
             this.panel4.TabIndex = 2;
             // 
             // panel5
             // 
             this.panel5.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel5.Location = new System.Drawing.Point(113, 186);
+            this.panel5.Location = new System.Drawing.Point(79, 186);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(723, 125);
+            this.panel5.Size = new System.Drawing.Size(757, 125);
             this.panel5.TabIndex = 3;
             // 
             // panel6
             // 
             this.panel6.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel6.Location = new System.Drawing.Point(113, 311);
+            this.panel6.Location = new System.Drawing.Point(79, 311);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(723, 114);
+            this.panel6.Size = new System.Drawing.Size(757, 114);
             this.panel6.TabIndex = 4;
             // 
             // MainForm

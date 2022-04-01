@@ -49,5 +49,10 @@ namespace Projeto_Web
                 }
             }
         }
+        private void Solicitacoesbtn_Click(object sender, EventArgs e)
+        {
+            Solicitação solicitação = new Solicitação();
+            solicitação.ShowDialog();
+        }
     }
 }
