@@ -8,7 +8,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Projeto_Web.Models
 {
-    class CadastroModel
+    public class CadastroModel
     {
         [Key]
         public int ID { get; set; }

@@ -16,7 +16,6 @@ namespace Projeto_Web.Controllers
 
         public void Salvar(CadastroModel usuario)
         {
-            
 
         }
     }
