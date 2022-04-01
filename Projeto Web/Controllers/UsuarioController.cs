@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Projeto_Web.Data;
 using Projeto_Web.Models;
+using Microsoft.EntityFrameworkCore;
 
 
 namespace Projeto_Web.Controllers
@@ -15,7 +16,7 @@ namespace Projeto_Web.Controllers
 
         public void Salvar(CadastroModel usuario)
         {
-
+            
 
         }
     }
